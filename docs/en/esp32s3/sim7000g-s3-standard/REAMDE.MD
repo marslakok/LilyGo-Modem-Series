@@ -16,6 +16,12 @@
 
 [1]: https://www.lilygo.cc/products/
 
+### Modem differences
+
+| Model    | GPS | SMS          | Phone Call | Frequency band(**Cat-M**)                         | Frequency band(**Cat-NB**)                     | Frequency band(**GSM**) |
+| -------- | --- | ------------ | ---------- | ------------------------------------------------- | ---------------------------------------------- | ----------------------- |
+| SIM7000G | ✅   | Only GSM(2G) | ❌          | B1/B2/B3/B4/B5/B8/B12/B13/B18/B19/B20/B26/B28/B39 | B1/B2/B3/B5/B8/B12/B13/B17/B18/B19/B20/B26/B28 | 850/900/1800/1900MHz    |
+
 ### PlatformIO Quick Start
 
 1. Install [Visual Studio Code](https://code.visualstudio.com/) and [Python](https://www.python.org/)

@@ -16,6 +16,15 @@
 
 [1]: https://lilygo.cc/products/t-a7608e-h?variant=42860532433077
 
+### Modem differences
+
+| Model     | GPS | Phone Call | SMS | Frequency band                                                                                                         |
+| --------- | --- | ---------- | --- | ---------------------------------------------------------------------------------------------------------------------- |
+| A7608E-H  | ✅   | ✅          | ✅   | LTE-TDD B38/B40/B41 LTE-FDD B1/B3/B5/B7/B8/B20 UMTS/HSPA+ B1/B8  GSM/GPRS/EDGE 900/1800 MHz                            |
+| A7608SA-H | ✅   | ✅          | ✅   | LTE-TDD B38/B40/B41 LTE-FDD B1/B2/B3/B4/B5/B7/B8/B20/B28/B66 UMTS/HSPA+ B1/B2/B5/B8 GSM/GPRS/EDGE850/900/1800/1900 MHz |
+
+* A7608 also has a version without positioning. Whether it has positioning function cannot be obtained from AT commands. It can only be distinguished by the PN number of the modem. Please check whether the purchase order includes GPS function.
+
 ### PlatformIO Quick Start
 
 1. Install the **CH9102 USB bridge** driver for the first time.
