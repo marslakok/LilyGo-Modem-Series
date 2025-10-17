@@ -1,6 +1,11 @@
 
 <h1 align = "center">🌟SIM7600 Modem Firmware Update Guide🌟</h1>
 
+
+### Record Video
+
+* [SIM7600G Upgrade Record](https://www.youtube.com/watch?v=7cJzjfcrFWY&t=10s)
+
 #### 1. Download Driver & Tools
 
 * [Windows USB Drivers](https://drive.google.com/file/d/1WhHny4E-43DxUfifMkrX752oFBx7O70D/view?usp=sharing)

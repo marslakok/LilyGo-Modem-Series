@@ -24,6 +24,17 @@
   Feel free to apply it to any other example. It's simple!
 
  *************************************************************/
+// See all AT commands, if wanted
+// #define DUMP_AT_COMMANDS
+
+// Set serial for debug console (to the Serial Monitor, default speed 115200)
+#define SerialMon Serial
+
+// Set serial for AT commands (to the module)
+// Use Hardware Serial on Mega, Leonardo, Micro
+#define SerialAT Serial1
+
+#define BLYNK_PRINT SerialMon
 
 /* Fill in information from Blynk Device Info here */
 #define BLYNK_TEMPLATE_ID           "TMPxxxxxx"
@@ -46,7 +57,14 @@
 #include <BlynkSimpleTinyGSM.h>
 
 BlynkTimer timer;
+
+#ifdef DUMP_AT_COMMANDS
+#include <StreamDebugger.h>
+StreamDebugger debugger(SerialAT, SerialMon);
+TinyGsm modem(debugger);
+#else
 TinyGsm modem(SerialAT);
+#endif
 
 // Your GPRS credentials
 // Leave empty, if missing user or pass
@@ -78,6 +96,9 @@ void sendRandomData()
 void setup()
 {
     Serial.begin(115200);
+
+    // Set modem baud
+    SerialAT.begin(115200, SERIAL_8N1, MODEM_RX_PIN, MODEM_TX_PIN);
 
 #ifdef BOARD_POWERON_PIN
     /* Set Power control pin output
@@ -113,9 +134,6 @@ void setup()
     digitalWrite(BOARD_PWRKEY_PIN, HIGH);
     delay(MODEM_POWERON_PULSE_WIDTH_MS);
     digitalWrite(BOARD_PWRKEY_PIN, LOW);
-
-    // Set modem baud
-    SerialAT.begin(115200, SERIAL_8N1, MODEM_RX_PIN, MODEM_TX_PIN);
 
     // Check if the modem is online
     Serial.println("Start modem...");
@@ -236,13 +254,23 @@ void setup()
     String ipAddress = modem.getLocalIP();
     Serial.print("Network IP:"); Serial.println(ipAddress);
 
-    Serial.println("Check firmware version");
+    delay(1000);
+
+    String version;
+
+    // Flush Rx buffer
+    while (SerialAT.available() > 0) {
+        SerialAT.read();
+    }
+
     // Check firmware version
     modem.sendAT("+SIMCOMATI");
-    String version;
+    Serial.println("Check firmware version");
     modem.waitResponse(10000, version);
     Serial.println(version);
 
+
+    Serial.println("---------------Blynk-------------------");
     delay(3000);
 
     // Restart takes quite some time
@@ -329,5 +357,131 @@ IMEI: XXXXXXXXXXXX
 17:32:27.903 > [16733] Connecting to blynk.cloud:80
 17:32:29.039 > [17868] Ready (ping: 311ms).
 17:32:29.131 > loop...
+
+------------------------------SIM7600G B04 G22------------------------------------------
+! 2025/10/17 OK https://github.com/Xinyuan-LilyGO/LilyGo-Modem-Series/issues/380#issuecomment-3412977696
+Manufacturer: SIMCOM INCORPORATED
+Model: SIMCOM_SIM7600G-H
+Revision: LE20B04SIM7600G22
+QCN: 
+IMEI: xxxxxxxxxxxxxxxx
+MEID: 
++GCAP: +CGSM
+DeviceInfo: 173,170
+
+SIM card online
+Current network mode : AUTO
+Wait for the modem to register with the network.[24] Signal Quality:99
+[25] Signal Quality:28
+Registration Status:-1
+[29] Signal Quality:99
+[30] Signal Quality:99
+[31] Signal Quality:99
+[32] Signal Quality:29
+Online registration successful
+
+Registration Status:1
+Inquiring UE system information:LTE,Online,460-11,0x775C,117004595,399,EUTRAN-BAND3,1650,5,5,-72,-844,-573,17
+Network IP:10.9.25.34
+
+Check firmware version
+AT+SIMCOMATI
+
+Manufacturer: SIMCOM INCORPORATED
+Model: SIMCOM_SIM7600G-H
+Revision: LE20B04SIM7600G22
+QCN: 
+IMEI: 862636054508609
+MEID: 
++GCAP: +CGSM
+DeviceInfo: 173,170
+
+OK
+
+---------------Blynk-------------------
+Initializing modem...
+Modem Name: SIM7600G-H
+
+[43754] 
+    ___  __          __
+   / _ )/ /_ _____  / /__
+  / _  / / // / _ \/  '_/
+ /____/_/\_, /_//_/_/\_\
+        /___/ v1.3.2 on ESP32
+
+ #StandWithUkraine    https://bit.ly/swua
+
+
+[43764] Modem init...
+[43832] Connecting to network...
+[43859] Network: CHN-CT
+[43859] Connecting to YourAPN ...
+[43979] Connected to GPRS
+[44054] Connecting to blynk.cloud:80
+[45040] Ready (ping: 334ms).
+loop...
+
+------------------------------SIM7600G B05 G22------------------------------------------
+! 2025/10/17 OK https://github.com/Xinyuan-LilyGO/LilyGo-Modem-Series/issues/380#issuecomment-3412977696
+
+Manufacturer: SIMCOM INCORPORATED
+Model: SIMCOM_SIM7600G-H
+Revision: LE20B05SIM7600G22
+QCN: 
+IMEI: xxxxxxxxxxx
+MEID: 
++GCAP: +CGSM
+DeviceInfo: 173,170
+
+SIM card online
+Current network mode : AUTO
+Wait for the modem to register with the network.[24] Signal Quality:99
+[25] Signal Quality:25
+Registration Status:-1
+[29] Signal Quality:99
+[30] Signal Quality:26
+[31] Signal Quality:26
+Online registration successful
+
+Registration Status:1
+Inquiring UE system information:LTE,Online,460-11,0x775C,117004605,399,EUTRAN-BAND3,1506,3,3,-104,-899,-626,18
+Network IP:10.27.112.145
+
+Check firmware version
+AT+SIMCOMATI
+
+Manufacturer: SIMCOM INCORPORATED
+Model: SIMCOM_SIM7600G-H
+Revision: LE20B05SIM7600G22
+QCN: 
+IMEI: xxxxxxxxxxx
+MEID: 
++GCAP: +CGSM
+DeviceInfo: 173,170
+
+OK
+
+---------------Blynk-------------------
+Initializing modem...
+Modem Name: SIM7600G-H
+
+[42846] 
+    ___  __          __
+   / _ )/ /_ _____  / /__
+  / _  / / // / _ \/  '_/
+ /____/_/\_, /_//_/_/\_\
+        /___/ v1.3.2 on ESP32
+
+ #StandWithUkraine    https://bit.ly/swua
+
+
+[42856] Modem init...
+[42929] Connecting to network...
+[42958] Network: CHN-CT
+[42958] Connecting to YourAPN ...
+[43090] Connected to GPRS
+[43165] Connecting to blynk.cloud:80
+[44145] Ready (ping: 317ms).
+loop...
 
 */
