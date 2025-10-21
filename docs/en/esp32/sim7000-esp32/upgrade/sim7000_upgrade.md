@@ -3,10 +3,13 @@
 
 ## Resources
 
-- [SIM7000 FlashTools](https://drive.google.com/file/d/1nOqJuzBgE8KrMkpQUAWy3nJwqEBVABVn/view?usp=sharing)
+- [SIM7000 FlashTools v1.6.7](https://drive.google.com/file/d/1nOqJuzBgE8KrMkpQUAWy3nJwqEBVABVn/view?usp=sharing)
+- [SIM7000 FlashTools v1.4.3](https://drive.google.com/file/d/1-ADY7_fbXehiQBJZhwp7Kht-ZQpFE1np/view?usp=sharing)
 - [SIM7000 Driver](https://drive.google.com/file/d/1f02TTNoyirFPGWbob1khy9dnoBonoVe7/view?usp=sharing)
 - [1529B11V01SIM7000G Fixed MQTTS,HTTPS](https://drive.google.com/file/d/12rZ9b7z3ONCPwtevOcz3khYl5vw4zGL3/view?usp=sharing)
 
+* If the new version upgrade tool(V1.6.7) fails to upgrade, try using the old version(1.4.3) upgrade tool.
+  
 ## Quick Step
 
 1. To solder the USB to the upgrade solder joint, you can choose a flying lead or directly solder the USB to the contact.
