@@ -281,3 +281,7 @@
 ## Schematic
 
 [T-SimShield-Rev1.0 schematic](../../../schematic/shield/T-SimShield-Rev1.0.pdf)
+
+## DataSheet
+
+[Solar panel specifications](./../../../datasheet/3D5ETR00372_233153V01_20250828.pdf)
