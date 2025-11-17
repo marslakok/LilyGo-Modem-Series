@@ -1,7 +1,6 @@
 
 <h1 align = "center">🌟SIM7600 Modem Firmware Update Guide🌟</h1>
 
-
 ### Record Video
 
 * [SIM7600G Upgrade Record](https://www.youtube.com/watch?v=7cJzjfcrFWY&t=10s)
@@ -14,12 +13,19 @@
 
 **The firmware version flashed must be consistent with the PN number of the demodulator, otherwise it will become a brick.**
 
-* [SIMCOM-7600G-H PN:S2-1097D-Z307J](https://drive.google.com/file/d/11RRi8oIJKkH_XrOYSVGDl4XojPs5zYOM/view?usp=sharing)
-* [SIMCOM-7600G-H PN:S2-1097D-Z31E3](https://drive.google.com/drive/folders/11YthuETFAIiLzhQ2mxGtca27JOckc2oP?usp=sharing)
-* [SIMCOM-7600G-H PN:S2-1097C-Z31FP](https://drive.google.com/drive/folders/11pfGCjkZFXo1AnTbNawqvSGudWjKn_26?usp=sharing)
-* [SIMCOM-7600G-H PN:S2-1097D-Z32DY LE20B05SIM7600G22](https://drive.google.com/file/d/12BMSSGPISMhFEDvG7C9s34YvWg5PDNNb/view?usp=sharing)
-* [SIMCOM-7600G-H PN:S2-1097D-Z32DY LE20B05SIM7600G22_240828 Latest](https://drive.google.com/file/d/1pNI1-kF8lnb8IUgjqwBE5iY18hNYFuKA/view?usp=sharing)
-* [SIMCOM-7600E-H PN:S2-107EQ-Z30LC](https://drive.google.com/file/d/12qAtFyZo5jR1xwohpejrqwjh5R_a6uY0/view?usp=sharing)
+##### SIM7600G-H
+
+* [PN:S2-1097D-Z307J](https://drive.google.com/file/d/11RRi8oIJKkH_XrOYSVGDl4XojPs5zYOM/view?usp=sharing)
+* [PN:S2-1097D-Z31E3](https://drive.google.com/drive/folders/11YthuETFAIiLzhQ2mxGtca27JOckc2oP?usp=sharing)
+* [PN:S2-1097C-Z31FP](https://drive.google.com/drive/folders/11pfGCjkZFXo1AnTbNawqvSGudWjKn_26?usp=sharing)
+* [PN:S2-1097D-Z32DY LE20B05SIM7600G22](https://drive.google.com/file/d/12BMSSGPISMhFEDvG7C9s34YvWg5PDNNb/view?usp=sharing)
+* [PN:S2-1097D-Z32DY LE20B05SIM7600G22_240828 Latest](https://drive.google.com/file/d/1pNI1-kF8lnb8IUgjqwBE5iY18hNYFuKA/view?usp=sharing)
+* [PN:S2-107EQ-Z30LC](https://drive.google.com/file/d/12qAtFyZo5jR1xwohpejrqwjh5R_a6uY0/view?usp=sharing)
+
+###### SIM7600E-H
+
+* [PN:S2-107EQ-Z30LC](https://drive.google.com/file/d/1kHsw8LXSm2FYmcSWsaYiS7G8vvF9q2No/view?usp=sharing)
+* [PN:S2-107EQ-Z30AN](https://drive.google.com/file/d/1kHsw8LXSm2FYmcSWsaYiS7G8vvF9q2No/view?usp=sharing)
 
 #### 2. Switch USB input to Modem
 
