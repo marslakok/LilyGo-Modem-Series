@@ -334,6 +334,16 @@ MEID:
 +GCAP: +CGSM
 DeviceInfo: 173,170
 
+Manufacturer: SIMCOM INCORPORATED
+Model: SIMCOM_SIM7600E-H
+Revision: LE11B14SIM7600M22_250217
+SIM7600M22_B14V01_250217
+QCN: 
+IMEI: xxxxxxxxxxxxx
+MEID: 
++GCAP: +CGSM
+DeviceInfo: 173,170
+
 -------------------------------
 
 SIM7000G    # 2025/07/10:OK!
