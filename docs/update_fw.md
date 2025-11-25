@@ -60,7 +60,9 @@
 ### A7670SA-FASE GPS
 
 <!-- A011B07V01A7670M7_F_A7670SA-FASE_CD_V101230712 -->
-* [A7670SA-FASE-CD](https://drive.google.com/file/d/1-CcYlyPOYpIpcmSDjnfIXDE-GuazzLjO/view?usp=sharing) <!-- 20241009 Update Fixed  HTTP 715 error-->
+* [A7670SA-FASE-A011B07V01A7670M7](https://drive.google.com/file/d/1-CcYlyPOYpIpcmSDjnfIXDE-GuazzLjO/view?usp=sharing) <!-- 20241009 Update Fixed  HTTP 715 error-->
+<!-- A011B09A7670M7_F_A7670SA-FASE_CD_V101230712.rar -->
+* 🆕[A7670SA-FASE-A011B09A7670M7](https://drive.google.com/file/d/1nyIHD29vpMsm7do0SJIF8WNhXoop1K2V/view?usp=sharing)
 
 ------------------------
 
