@@ -95,6 +95,12 @@ See [LilyGo SIM7670G Upgrade Guide](./en/upgrade/sim7670g/sim7670g_upgrade.md)
 * [A7608SA-H B11](https://drive.google.com/file/d/1ktLzCjnd0TXzbiythU1EaWVkAokXzkf9/view?usp=sharing)
 * [A7608SA-H A50C4B13](https://drive.google.com/file/d/1-LsgDug-Zz_0kU96HlCGtfks3ruvjcQb/view?usp=sharing)
 
+> \[!IMPORTANT]
+>
+> The A7608 series requires a dedicated driver to be installed in boot mode; please see [here](https://github.com/Xinyuan-LilyGO/LilyGo-Modem-Series/issues/405#issuecomment-3575374939)
+>
+> Driver Directory: `A76XX_A79XX_MADL V1.32 Only for Update` -> `A1802&1803&1826Driver`
+
 ------------------------
 
 **Please provide the information in the QR code on the modem to LilyGo to confirm the firmware version.**
