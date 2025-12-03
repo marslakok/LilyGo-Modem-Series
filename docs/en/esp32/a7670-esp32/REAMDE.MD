@@ -36,6 +36,10 @@
 >
 > Please note that whether the GNSS IPEX antenna connector is on the PCB or not depends on the actual modem version. The A7670G modem does not have internal GPS functionality, regardless of whether GPS is included in your order. If you purchased the A7670G with GPS, you will need to use an external GPS module.
 > A7670G+GPS orders use an external GPS module and can only use [ExternalGPS_A7670G_Only Example](../../../../examples/ExternalGPS_A7670G_Only/ExternalGPS_A7670G_Only.ino). Other GPS examples cannot be used.
+> 
+> The image below clearly shows that if a GPS module is included on the side, then it's a version with an external GPS module.
+
+<img src="../../../../images/product/png/Q425-T-A7670G-GPS-ESP32.png" alt="T-A7670X-ESP32" width="300" style="border: 0;"/>
 
 ### PlatformIO Quick Start
 
