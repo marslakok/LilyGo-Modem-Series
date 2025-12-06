@@ -76,13 +76,19 @@
 <table style="width: 100%; border-collapse: collapse; text-align: center; border: 0; border-spacing: 0; margin: 20px 0;">
   <tr style="border: 0;">
     <!-- T-PCIE-Series -->
-    <td style="padding: 10px 20px; width: 100%; border: 0; background: transparent;">
+    <td style="padding: 10px 20px; width: 50%; border: 0; background: transparent;">
       <a href="./docs/en/esp32/pcie-series-esp32/REAMDE.MD" style="text-decoration: none; display: block;">
         <img src="./images/product/png/Q415-PCIE-ESP32.png" alt="T-PCIE-Series" width="200" style="border: 0;"/>
         <div style="color: #FFFF; font-weight: 600; margin-top: 8px;">T-PCIE-Series Quick Start</div>
       </a>
     </td>
-  </tr>
+    <!-- T-InterNetCom -->
+    <td style="padding: 10px 20px; width: 50%; border: 0; background: transparent;">
+      <a href="./docs/en/esp32/t-internet-com-esp32/REAMDE.MD" style="text-decoration: none; display: block;">
+        <img src="./images/product/png/Q329-T-Internet-COM.png" alt="T-Internet-COM" width="200" style="border: 0;"/>
+        <div style="color: #FFFF; font-weight: 600; margin-top: 8px;">T-Internet-COM Quick Start</div>
+      </a>
+    </td>
 </table>
 
 ## ESP32S3 Version Get Started
@@ -90,20 +96,28 @@
 <table style="width: 100%; border-collapse: collapse; text-align: center; border: 0; border-spacing: 0; margin: 20px 0;">
   <tr style="border: 0;">
     <!-- T-A7608-S3 -->
-    <td style="padding: 10px 20px; width: 50%; border: 0; background: transparent;">
+    <td style="padding: 10px 20px; width: 33.33%; border: 0; background: transparent;">
       <a href="./docs/en/esp32s3/a7608x-s3/REAMDE.MD" style="text-decoration: none; display: block;">
         <img src="./images/product/png/H694-T-A7608-S3.png" alt="T-A7608-S3" width="200" style="border: 0;"/>
         <div style="color: #FFFF; font-weight: 600; margin-top: 8px;">T-A7608X-ESP32S3 Quick Start</div>
       </a>
     </td>
     <!-- T-SIM7670G-ESP32S3 -->
-    <td style="padding: 10px 20px; width: 50%; border: 0; background: transparent;">
+    <td style="padding: 10px 20px; width: 33.33%; border: 0; background: transparent;">
       <a href="./docs/en/esp32s3/sim7670g-s3/REAMDE.MD" style="text-decoration: none; display: block;">
         <img src="./images/product/png/H707-T-SIM7670G-ESP32S3.png" alt="T-SIM7670G-ESP32S3" width="200" style="border: 0;"/>
         <div style="color: #FFFF; font-weight: 600; margin-top: 8px;">T-SIM7670G-ESP32S3 Quick Start</div>
       </a>
     </td>
+    <!-- T-Eth-Elite-ESP32S3 -->
+    <td style="padding: 10px 20px; width: 33.33%; border: 0; background: transparent;">
+      <a href="./docs/en/esp32s3/t-eth-elite-s3/REAMDE.MD" style="text-decoration: none; display: block;">
+        <img src="./images/product/png/H744-T-ETH-Elite-LTE.png" alt="T-Eth-Elite-ESP32S3" width="200" style="border: 0;"/>
+        <div style="color: #FFFF; font-weight: 600; margin-top: 8px;">T-Eth-Elite Quick Start</div>
+      </a>
+    </td>
   </tr>
+  
 </table>
 
 ## ESP32S3 Version Standard Series Get Started
