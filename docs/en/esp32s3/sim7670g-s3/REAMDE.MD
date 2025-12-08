@@ -24,7 +24,7 @@
 4. After restarting `Visual Studio Code`, select `File` in the upper left corner of `Visual Studio Code` -> `Open Folder` -> select the `LilyGo-Modem-Series` directory
 5. Wait for the installation of third-party dependent libraries to complete
 6. Click on the `platformio.ini` file, and in the `platformio` column
-7. Cancel the `;` symbol in front of the line `default_envs = T-SIM7670G-S3` and use `T-SIM7670G-S3` as the default environment
+7. Cancel the `;` symbol in front of the line `default_envs = T-SIM7670G` and use `T-SIM7670G` as the default environment
 8. Uncomment one of the lines `src_dir = xxxx` to ensure that only one line is valid. For example, to enable `src_dir = examples/ATdebug`, remove the leading `;` symbol and save the file. The ATDebug example will now be compiled.
 9. Click the (✔) symbol in the lower left corner to compile
 10. Connect the board to the computer USB-C , Micro-USB is used for module firmware upgrade
