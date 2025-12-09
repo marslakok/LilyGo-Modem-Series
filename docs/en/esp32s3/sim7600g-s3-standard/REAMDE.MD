@@ -243,6 +243,7 @@ The power-on sequence is: power on all cameras -> power off all cameras -> delay
 * [GPS Antenna](../../../../datasheet/GPS%20Antenna%20Specifications.pdf)
 * [LTE Antenna](../../../../datasheet/LTE%20Antenna%20Specifications.pdf)
 * [T-SIM7600G-S3-Standard Schematic](../../../../schematic/standard/T-SIM7600G-S3-Standard_Rev1.0.pdf)
+* [T-SIM7600G-S3-Standard-ExpansionKit](../../../../schematic/standard/T-SIM7600G-S3-Standard-ExpansionKit_Rev1.0.pdf)
 * [SIMCOM official SIM7600G All Datasheet](https://cn.simcom.com/product/SIM7600X.html)
 * [For SIM7600G series documentation, please visit the datasheet directory.](../../../../datasheet/SIM7600X/)
 
