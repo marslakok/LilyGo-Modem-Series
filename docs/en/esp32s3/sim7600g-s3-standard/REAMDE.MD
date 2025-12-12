@@ -236,6 +236,10 @@ The power-on sequence is: power on all cameras -> power off all cameras -> delay
 
 ### eSIM
 
+<img src="../../../../images/product/png/eSIM-Chip.png" alt="eSIM" width="480" style="border: 0;"/>
+
+<img src="../../../../images/product/png/eSIM.png" alt="eSIM" width="480" style="border: 0;"/>
+
 * The eSIM uses a QFN5*6-8 package and supports 1.8V/3.3V. It's not installed by default and requires soldering.
 
 ### Resource
