@@ -137,6 +137,8 @@
 * Peripheral power control pin. When using SD or modem, this GPIO must be set to high level, otherwise these functions cannot be used.
 * ESP32 models GPIO33 and above can only be set as input, not output
 * The A7670G-GPS version 21/22 is already in use and cannot be used as SDA/SCL. It is recommended to use other GPIOs as alternatives.
+* **GNSS WakeUp** : Low level enters Standby mode, high level enters operating mode.
+* **GNSS PPS**: 1 pulse per second
 
 > \[!IMPORTANT]
 > ESP32 version Since the SD card uses IO2 as CS, you cannot upload software in the Arduino IDE when you insert the SD card, so you must remove the SD card when uploading new code
@@ -213,6 +215,7 @@
 * [For A7670X series documentation, please visit the datasheet directory.](../../../../datasheet/A7670X/)
 * [Board dimensions](../../../../dimensions/esp32/T-A760X-ESP32.dxf)
 * [Case](../../../../dimensions/esp32/T-A7670X-Shell+GPS.7z)
+* [L76K GPS Module datasheet](../../../../datasheet/GPS/)
 
 ### FAQ
 

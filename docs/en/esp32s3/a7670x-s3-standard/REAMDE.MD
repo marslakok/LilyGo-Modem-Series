@@ -139,6 +139,17 @@
 | Default SDA       | 3                  | ✅️    |
 | Default SCL       | 2                  | ✅️    |
 
+| A7670G + L76K GPS Version Pin Maps   | GPIO |
+| ------------------------------------ | ---- |
+| GNSS WakeUp(A7670G-GPS Version Only) | 0    |
+| GPS RX                               | 48   |
+| GPS TX                               | 45   |
+| GPS PPS                              | 17   |
+
+* A7670G does not have GNSS functionality. If you purchase the version with GPS functionality, it's an external GPS version. The GPS pin is the same as the modem GNSS pin, except it also has a wakeup pin.
+* **GNSS WakeUp** : Low level enters Standby mode, high level enters operating mode.
+* **GNSS PPS**: 1 pulse per second
+
 ### Modem Pins
 
 | Name                         | GPIO NUM | Enable level | AT Command                     |
@@ -271,6 +282,7 @@ The power-on sequence is: power on all cameras -> power off all cameras -> delay
 * [T-A7670X-S3-Standard Schematic](../../../../schematic/standard/T-A7670X-S3-Standard_Rev1.0.pdf)
 * [SIMCOM official A7670X All Datasheet](https://cn.simcom.com/product/A7670X.html)
 * [For A7670X series documentation, please visit the datasheet directory.](../../../../datasheet/A7670X/)
+* [L76K GPS Module datasheet](../../../../datasheet/GPS/)
 
 ### FAQ
 
