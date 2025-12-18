@@ -114,9 +114,12 @@
 | GPS Enabled     | Modem Physical pin number 48 | ❌    |
 | Default SDA     | 21                           | ✅️    |
 | Default SCL     | 22                           | ✅️    |
+| GPS ANT Power   | 48 (Modem pin)               | ❌    |
 
 * Peripheral power control pin. When using SD or modem, this GPIO must be set to high level, otherwise these functions cannot be used.
 * ESP32 models GPIO33 and above can only be set as input, not output
+* GPS ANT Power : GPS positioning requires controlling the GPS antenna power supply via AT commands; otherwise, the location cannot be locked. Enable AT Command: `AT+CGPIO=0,48,1,1`  Disable AT Command: `AT+CGPIO=0,48,1,0`
+
 
 > \[!IMPORTANT]
 > ESP32 version Since the SD card uses IO2 as CS, you cannot upload software in the Arduino IDE when you insert the SD card, so you must remove the SD card when uploading new code
