@@ -38,6 +38,12 @@
 2. [A7608X-ESP32 Version](https://lilygo.cc/products/t-a7608e-h?variant=43275846090933)
 3. [A7670X-ESP32 Version](https://lilygo.cc/products/t-sim-a7670e?_pos=1&_sid=f2986df37&_ss=r&variant=42534734495925)
 
+> \[!IMPORTANT]
+>
+> A7670X/A7608X motherboards, resistors need to be removed to use SimShield. Please refer to this link for instructions on [How to remove resistors](https://github.com/Xinyuan-LilyGO/LilyGo-Modem-Series/issues/160#issuecomment-2409860411)
+> SIM7000G does not have this limitation.
+>
+
 ### Pinout
 
 | SIM7000G/A7670X/A7608X ESP32 | GPIO |
