@@ -153,7 +153,7 @@
 | SIMSHIELD_SDA        | 2    |
 | SIMSHIELD_SCL        | 1    |
 
-## SIM7080G ESP32S3
+## SIM7080G ESP32S3 PMU Version
 
 ![SIM7080G_ESP32S3](./images/SIM7080G_ESP32S3.png)
 
@@ -164,8 +164,15 @@
 > \[!IMPORTANT]
 >
 > 1. The SIM7080G-ESP32S3 version does not expose the battery external pin. The battery external function of SimShield cannot be used. The positive pole of the 18650 battery holder needs to be welded to the left pin.In the picture, +BAT points to the welding direction of the positive pole of the battery.
+>
 > 2. The SIM7080G-ESP32S3 version has an onboard 18650 battery holder that conflicts with SimShield. The battery holder must be removed before installation
 >
+> 3. The SIM7080G PMU version is not fully compatible with other versions in terms of PinHeader. Therefore, when connecting to the SIMShield, the `DC5` and `VSYS` pins must not be connected to the `SIM Shield`; that is, the `DC5` and `VSYS` pins must be empty.
+>
+> 4. The SIM7080G PMU version does not expose a 5V input pin. The included 2.00mm wire needs to be soldered to the position shown in the diagram below on the motherboard in order for the board to accept a 5V power input.
+>
+
+![H606-SIM7080](./images/H606-SIM7080.png)
 
 ### Applicable Models
 
@@ -257,7 +264,7 @@
 
 ## Current detection
 
-![intervface](./images/intervface.png)
+![interface](./images/intervface.png)
 
 * If the jumper of current detection channel 2 is selected as the battery detection channel, the external wiring terminal is unavailable.
 * Channel 3 and channel 1 are free to use. The **IN+** of the terminal is the direction of current inflow, **G** is the **GND** of the load, and **IN-** is the direction of current outflow from the load.
