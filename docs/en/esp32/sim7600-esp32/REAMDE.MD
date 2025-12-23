@@ -149,6 +149,13 @@
 > \[!IMPORTANT]
 > ESP32 version Since the SD card uses IO2 as CS, you cannot upload software in the Arduino IDE when you insert the SD card, so you must remove the SD card when uploading new code
 >
+> GPIO4(PWRKEY),GPIO26(TX),GPIO27(RX), is exposed on the header pins. Do not connect any wires to the GPIO4 position on the header pins; keep it unconnected.
+>
+> GPIO25 (Modem FlyMode) is exposed on the header. Do not connect any wires to the GPIO25 position on the header; keep it disconnected.
+>
+> GPIO32 (Modem DTR) is exposed on the header. Do not connect any wires to the GPIO32 position on the header; keep it disconnected.
+>
+> GPIO33 (Modem RI) is exposed on the header. Do not connect any wires to the GPIO33 position on the header; keep it disconnected.
 
 ### ⚡ Electrical parameters
 
