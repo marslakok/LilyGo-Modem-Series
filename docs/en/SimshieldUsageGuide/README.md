@@ -80,20 +80,26 @@
 
 ### Pinout
 
-| SIM7600X ESP32       | GPIO |
-| -------------------- | ---- |
-| SIMSHIELD_MOSI       | 23   |
-| SIMSHIELD_MISO       | 19   |
-| SIMSHIELD_SCK        | 18   |
-| SIMSHIELD_SD_CS      | 32   |
-| SIMSHIELD_RADIO_BUSY | 39   |
-| SIMSHIELD_RADIO_CS   | 5    |
-| SIMSHIELD_RADIO_IRQ  | 34   |
-| SIMSHIELD_RADIO_RST  | 14   |
-| SIMSHIELD_RS_RX      | 12   |
-| SIMSHIELD_RS_TX      | 13   |
-| SIMSHIELD_SDA        | 21   |
-| SIMSHIELD_SCL        | 22   |
+| SIM7600X ESP32       | GPIO | Modem              |
+| -------------------- | ---- | ------------------ |
+| SIMSHIELD_MOSI       | 23   |                    |
+| SIMSHIELD_MISO       | 19   |                    |
+| SIMSHIELD_SCK        | 18   |                    |
+| SIMSHIELD_SD_CS      | 32   | SIM7600 DTR PIN    |
+| SIMSHIELD_RADIO_BUSY | 39   |                    |
+| SIMSHIELD_RADIO_CS   | 5    |                    |
+| SIMSHIELD_RADIO_IRQ  | 34   | SIM7600 STATUS PIN |
+| SIMSHIELD_RADIO_RST  | 14   |                    |
+| SIMSHIELD_RS_RX      | 12   | SIM7600 LED PIN    |
+| SIMSHIELD_RS_TX      | 13   |                    |
+| SIMSHIELD_SDA        | 21   |                    |
+| SIMSHIELD_SCL        | 22   |                    |
+
+> \[!IMPORTANT]
+>
+> The SIM7600 DTR (IO32), STATUS (IO34), and ON BOARD LED (IO12) have been reassigned to SimShield. Please do not use these three GPIOs for other purposes.
+>
+>
 
 ## SIM7670G ESP32S3
 
