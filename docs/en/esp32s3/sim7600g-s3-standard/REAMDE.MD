@@ -16,6 +16,14 @@
 
 [1]: https://www.lilygo.cc/products/
 
+### Modem differences
+
+| Model    | GPS | Phone Call | SMS | Frequency band                                                                                         |
+| -------- | --- | ---------- | --- | ------------------------------------------------------------------------------------------------------ |
+| SIM7670G | ✅   | ❌          | ✅   | LTE-FDD:B1/B2/B3/B4/B5/B7/B8/B12/B13/B18/B19/B20/B25/B26/B28/B66/B71 LTE-TDD:B34/B38/B39/B40/B41 GSM:❌ |
+
+* SMS: `SIM7670G-MNGV 2374B04` version supports SMS function,but it requires the operator base station to support SMS Over SGS service to send, otherwise it will be invalid
+
 ### PlatformIO Quick Start
 
 1. Install [Visual Studio Code](https://code.visualstudio.com/) and [Python](https://www.python.org/)

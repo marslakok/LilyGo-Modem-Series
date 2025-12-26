@@ -16,6 +16,13 @@
 
 [1]: https://lilygo.cc/products/t-a7608e-h?variant=43932699033781
 
+### Modem differences
+
+| Model     | GPS | Phone Call | SMS | Frequency band                                                                                                 |
+| --------- | --- | ---------- | --- | -------------------------------------------------------------------------------------------------------------- |
+| A7608E-H  | ✅   | ✅          | ✅   | LTE-TDD:B38/B40/B41 LTE-FDD:B1/B3/B5/B7/B8/B20 UMTS/HSPA+:B1/B8 GSM/GPRS/EDGE:900/1800 MHz                     |
+| A7608SA-H | ✅   | ✅          | ✅   | LTE-TDD:B38/B40/B41 LTE-FDD:B1/B2/B3/B4/B5/B7/B8/B20/B28/B66 UMTS/HSPA+:B1/B2/B5/B8 GSM/GPRS/EDGE:900/1800 MHz |
+
 ### PlatformIO Quick Start
 
 1. Install [Visual Studio Code](https://code.visualstudio.com/) and [Python](https://www.python.org/)
