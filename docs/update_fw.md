@@ -47,6 +47,7 @@
 
 <!-- * [A7670E-LASE B14](https://drive.google.com/file/d/1ERblToPH4FoAo2dVYn3B--u_FzhIzeMQ/view?usp=sharing) Known HTTP 715 Errors Don't use this version-->
 * [A7670E-LASE A124B01](https://drive.google.com/file/d/1-14KABQxVgjcJjJVuofp1BkZd0VYZVWA/view?usp=sharing)<!-- 20241008 Update Fixed  HTTP 715 error-->
+* 🆕[A7670E-LASE A124B02](https://drive.google.com/file/d/1PJ6xogfZqH1fFin-V_Mio9rExiVIL-lz/view?usp=sharing)
 
 ------------------------
 
